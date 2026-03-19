@@ -1,4 +1,4 @@
-# <img src="logo.png" width="45" align="center"> GHOST-GATE (GG)
+# <img src="logo.png" width="45" align="center"> GHOST-GATE P2P
 
 [![Release](https://img.shields.io/badge/Release-V1.0.0--GOLDEN-blueviolet?style=for-the-badge)](https://github.com/trydnx/GhostGateP2P/releases)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Web%20%7C%20Cloudflare-cyan?style=for-the-badge)](#)
