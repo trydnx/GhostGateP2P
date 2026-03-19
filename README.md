@@ -1,40 +1,49 @@
-# GhostGate (Otobot) - Akıllı Yoklama Asistanı
+# <img src="logo.png" width="45" align="center"> GHOST-GATE (GG)
 
-GhostGate, üniversite yoklama sistemlerini çok daha kolay ve akıllı hale getiren bir yardımcı araçtır. Karmaşık teknik detaylarla uğraşmanıza gerek kalmadan, tek bir dokunuşla tüm hesaplarınızın yoklamasını verebilir veya uzaktan derse dahil olabilirsiniz.
+[![Release](https://img.shields.io/badge/Release-V1.0.0--GOLDEN-blueviolet?style=for-the-badge)](https://github.com/trydnx/GhostGateP2P/releases)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Web%20%7C%20Cloudflare-cyan?style=for-the-badge)](#)
+[![Status](https://img.shields.io/badge/Network-Secure%20Mesh%20Active-success?style=for-the-badge)](#)
 
----
+**Ghost-Gate (GG)**, üniversite yoklama sistemlerini modernize eden, güvenli mesh network tabanlı bir otomasyon ve erişim protokolüdür. Geleneksel yöntemlerin kısıtlamalarını aşarak, öğrenciler için benzersiz bir "Secure Peer" deneyimi sunar.
 
-## Neler Yapabilir?
-
-### Tek Tuşla Tüm Hesaplar (Çoklu Hesap)
-Uygulamaya birden fazla öğrenci hesabı ekleyebilirsiniz. Yoklama açıldığında, sadece **tek bir tuşa basarak** eklediğiniz tüm hesaplar için aynı anda yoklamaya girebilirsiniz. Her hesap sanki kendi cihazından giriyormuş gibi güvenli ve benzersiz şekilde işlem yapar.
-
-### Web Arayüzü ile Uzaktan Erişim (iOS ve PC)
-**Canlı Web Portalı:** [https://ghostgate.trydnx.workers.dev/](https://ghostgate.trydnx.workers.dev/)
-
-GhostGate ağı sayesinde, sınıfta olmanıza veya Android bir cihaza sahip olmanıza gerek yok!
-- Eğer GhostGate ağından **sadece tek bir kişi** sınıfta yoklamaya dahil olmuşsa, ağdaki diğer herkes (iOS/iPhone veya Bilgisayar kullanıcıları) yukarıdaki web arayüzü üzerinden o yoklamaya **uzaktan** katılabilir.
-- Sınıftaki arkadaşınız yoklamaya girdiğinde, sizin için de kapı açılmış olur!
-
-### Akıllı Ağ (Mesh Network)
-Sistem tamamen yardımlaşma üzerine kuruludur. Bir kişi "Altın Anahtar"ı (yoklama şifresini) bulduğunda, bu bilgi GhostGate ağındaki diğer kullanıcılarla otomatik olarak paylaşılır. Size sadece web portalından veya uygulamadan onay vermek kalır.
-
-### Yoklama Başlatıldı Bildirimi
-GhostGate akıllı bildirimler özelliği ile sadece sizin kayıtlı olduğunuz derslerin yoklamalarının bildirimlerini size gönderir.
+<p align="center">
+  <img src="ghostgate.png" width="600" alt="Ghost-Gate Splash">
+</p>
 
 ---
 
-## Kullanım Çok Basit
+## 🚀 Temel Özellikler
 
-1.  **Hesaplarınızı Ekleyin:** Uygulama üzerinden tüm hesaplarınızı tanımlayın.
-2.  **Ağa Dahil Olun:** Uygulama veya Web arayüzü ([GhostGate Portal](https://ghostgate.trydnx.workers.dev/)) üzerinden giriş yapın.
-3.  **Tek Tuşla Girin:** Yoklama başladığında "Yoklamaya Dahil Ol" butonuna basın ve tüm hesaplarınızın yoklaması saniyeler içinde tamamlansın.
+### 📱 Ghost-Gate Mobile (Android)
+- **Multi-Account Sync:** Tek bir cihaz üzerinden sınırsız sayıda öğrenci hesabını yönetin.
+- **One-Tap Attendance:** Tüm hesaplar için tek dokunuşla eşzamanlı yoklama girişi.
+- **Akıllı Bildirimler:** Derslerinizin yoklaması başladığında anlık bildirimler.
+
+### 🌐 Secure Web Portals (iOS & PC)
+Ghost-Gate ağı, fiziksel konum zorunluluğunu ortadan kaldırır. Sınıfta ağa bağlı **tek bir kişi** olması, herkesin o derse uzaktan güvenli bir şekilde erişimini sağlar.
+- **Cloudflare Relay:** `https://ghostgate.trydnx.workers.dev/`
+- **Vercel Edge:** `https://ghostgate.vercel.app/`
+
+### 🛡️ Mesh Network (P2P) Protokolü
+- **Golden Key Sharing:** Sınıf içindeki bir cihaz yoklama yakaladığında, bu veri şifreli bir kanal üzerinden ağdaki tüm düğümlere dağıtılır.
+- **Secure Bridge:** Web istemcileri, bu mesh ağına birer "Remote Peer" olarak bağlanır.
 
 ---
 
-## Yasal Uyarı
-Bu proje eğitim ve araştırma amaçlı geliştirilmiştir. Kullanımdan doğabilecek tüm sorumluluk kullanıcıya aittir.
+## 📖 Kullanım Kılavuzu
+
+1.  **Kurulum:** En güncel [GhostGate APK](https://github.com/trydnx/GhostGateP2P/releases/download/v1.0.0/GhostGate_v1_0_0.apk) dosyasını indirin ve kurun.
+2.  **Yetkilendirme:** Uygulama içinden veya web portalından öğrenci numaranız ve şifrenizle giriş yapın.
+3.  **Sync:** Yoklama açıldığında ağ düğümleri otomatik senkronize olur. Size sadece **"Yoklamaya Dahil Ol"** butonuna basmak kalır.
 
 ---
 
-Dijital özgürlük ve kolaylık için geliştirildi.
+## ⚠️ Yasal Uyarı
+Bu proje eğitim, güvenlik araştırmaları ve sistem analizi amacıyla geliştirilmiştir. Sistemin akademik dürüstlük kuralları çerçevesinde kullanılması önerilir. Oluşabilecek tüm sorumluluk son kullanıcıya aittir.
+
+---
+
+<p align="center">
+  Developed by <b>TRYDNX</b><br>
+  <i>"Digital Freedom through Secure Peer Networks"</i>
+</p>
