@@ -21,10 +21,11 @@
 
 ### 🌐 Secure Web Portals (iOS & PC)
 Ghost-Gate ağı, fiziksel konum zorunluluğunu ortadan kaldırır. Sınıfta ağa bağlı **tek bir kişi** olması, herkesin o derse uzaktan güvenli bir şekilde erişimini sağlar.
-- **Cloudflare Relay:** `https://ghostgate.trydnx.workers.dev/`
-- **Vercel Edge:** `https://ghostgate.vercel.app/`
+- [https://ghostgate.trydnx.workers.dev/](https://ghostgate.trydnx.workers.dev/)
+- [https://ghostgate.vercel.app/](https://ghostgate.vercel.app/)
 
 ### 🛡️ Mesh Network (P2P) Protokolü
+- Sistem tamamen yardımlaşma üzerine kuruludur.
 - **Golden Key Sharing:** Sınıf içindeki bir cihaz yoklama yakaladığında, bu veri şifreli bir kanal üzerinden ağdaki tüm düğümlere dağıtılır.
 - **Secure Bridge:** Web istemcileri, bu mesh ağına birer "Remote Peer" olarak bağlanır.
 
